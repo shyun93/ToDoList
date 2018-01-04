@@ -1,0 +1,50 @@
+li {
+    font-size: 150%;
+    width: 100%;
+}
+
+ul {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+li:nth-child(2n) {
+    background: #DCDCDC
+}
+
+input {
+    width: 100%;
+    font-family: Amatic SC;
+    font-size: 100%;
+}
+
+span {
+    padding: 0px;
+    margin-right: 20px;
+    text-align: center;
+    width: 25px;
+    background-color: red;
+}
+
+.container {
+    width: 350px;
+    margin: 100px auto;
+    font-family: Amatic SC;
+}
+
+.h1 {
+    font-size: 70%;
+    text-align: center;
+}
+
+.delete {
+    opacity: 0;
+    cursor: pointer;
+}
+
+li:hover .delete{
+    opacity: 1;
+    display: inline-block;
+}
